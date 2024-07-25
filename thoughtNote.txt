@@ -1,0 +1,35 @@
+How to start the project
+1) for react use commands:-
+	1)npm i 
+	2) npm run dev
+
+2) for node use commands:-
+	1)npm i 
+	2)nodemon server.js
+
+Product Specification:-
+
+1) web-app-fe (React)
+	1. Created a new vite React JS application "web-app-fe"
+	2. Added bootstrap and Google fonts library
+	3. Designed the the way it was shown
+	4. The design is responsive 
+	5. Created Nabvar as component and other as pages like login, register,etc. 
+	6. did routing in App.jsx.
+	7. used axios for get and post request. At the time of login i'm putting authorization in the header of the axios.
+	8. created Redux change state and also to use it to create logic to what to show or what not, before login and after login.
+	9. using localStorage to hold the token and user data at the time of login and at the time of logout removing that data
+	10. using useNavigate to navigate to login page after registration and logout.
+	11. using sweetalert for popups
+
+2) web-app-be (Node)
+	1. Created a Node JS application "web-app-be"
+	2. using express, cors,mongoose, jwtwebtoken, bcryptjs, nodemon
+	3. created middleware, and creating token at the time of login using id provided by mongodb
+	4. Created 2 models for 1 for signup and login and other for add sales, toprevenue, topsales
+	5. created 2 routes also for 1 for signup and login and other for add sales, toprevenue, topsales and also doing controller work here inside routes.
+	6. Created config file for MONGODB and JWTSECRET
+	7. server.js is the main file where i'm making connection with MONGODB 
+	8. In server.js i'm requiring both models and require and using throuth app.use() both routes.
+	9. using MONGODB_URL: "mongodb://localhost:27017/saleswebapp".
+	

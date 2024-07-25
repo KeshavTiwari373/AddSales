@@ -1,0 +1,17 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-server": "cd web-app-be && npm install",
+    "start-server": "cd web-app-be && npm start",
+    "install-client": "cd web-app-fe && npm install",
+    "build-client": "cd web-app-fe && npm run build",
+    "start-client": "cd web-app-fe && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
